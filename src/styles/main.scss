@@ -1,0 +1,31 @@
+/* ======================
+   MAIN STYLESHEET
+   ====================== */
+
+// 1. Import variables first
+@use 'variables' as *;
+
+// 2. Import base styles
+@use 'base';
+
+// 3. Component styles (example)
+.app-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+// 4. Utility classes
+.text-center {
+    text-align: center;
+}
+
+// 5. Animation keyframes
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

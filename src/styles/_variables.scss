@@ -1,0 +1,39 @@
+:root {
+    // =====================
+    // Light Theme (Default)
+    // =====================
+    // Core Colors
+    --color-primary: #f28a29;
+    --color-primary-hover: #b2661e;
+    --color-accent: #52a5cd;
+    --color-accent-hover: #4285a6;
+    --color-highlight: #6dc2f7;
+    --color-text: #333940;
+    --color-text-secondary: #737980;
+    --color-text-on-primary: #ffffff;
+    --color-bg: #f2f2f2;
+    --color-bg-alt: #e1edfa;
+    --color-surface: #ceddf2;
+    --color-divider: #dae6f2;
+    --color-depth: rgba(#(000000) 0.1);
+    --color-border: #b8c8d9;
+
+    // =====================
+    // Dark Theme (Media Query)
+    // =====================
+    @media (prefers-color-scheme: dark) {
+        --color-primary: #d98a41;
+        --color-primary-hover: #e57b17;
+        --color-accent: #5995b2;
+        --color-accent-hover: #45b0e5;
+        --color-highlight: #6dc2f7;
+        --color-text: #e0e0e0;
+        --color-text-secondary: #8a9199;
+        --color-bg: #1a1a1a;
+        --color-bg-alt: #0b1c2e;
+        --color-surface: #0f233d;
+        --color-divider: #1b2026;
+        --color-depth: #1d2e47;
+        --color-border: #333940;
+    }
+}

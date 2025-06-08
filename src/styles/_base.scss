@@ -1,0 +1,74 @@
+/* ======================
+   BASE STYLES & RESETS
+   ====================== */
+
+// 1. Box sizing reset
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// 2. Document defaults
+html {
+    scroll-behavior: smooth;
+    font-size: 100%; // 1rem = 16px by default
+}
+
+// 3. Body defaults
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    -webkit-font-smoothing: antialiased;
+}
+
+// 4. Media defaults
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+// 5. Form element resets
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+// 6. Anchor reset
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+// 7. List reset
+ul,
+ol {
+    list-style: none;
+}
+
+// 8. Typography
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1rem;
+    max-width: 65ch;
+}
