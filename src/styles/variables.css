@@ -17,17 +17,29 @@
 } */
 
 @theme {
-    --color-primary: #d98a41;
-    --color-primary-hover: #e57b17;
+    /* Brand Colors (Primary UI Actions) */
+    --color-brand: #d98a41;
+    --color-brand-active: #e57b17;
+
+    /* Accent Colors (Secondary Actions) */
     --color-accent: #5995b2;
-    --color-accent-hover: #45b0e5;
-    --color-highlight: #6dc2f7;
+    --color-accent-active: #45b0e5;
+
+    /* Feedback/Highlight Colors (Focus rings, highlight) */
+    --color-focus: #6dc2f7;
+
+    /* Text Colors */
     --color-text: #e0e0e0;
-    --color-text-secondary: #8a9199;
-    --color-bg: #1a1a1a;
-    --color-bg-alt: #0b1c2e;
+    --color-text-muted: #8a9199;
+
+    /* Backgrounds */
+    --color-bg-base: #1a1a1a;
+    --color-bg-elevated: #0b1c2e;
+    /* Surface & UI Elements */
     --color-surface: #0f233d;
-    --color-divider: #1b2026;
-    --color-depth: #1d2e47;
     --color-border: #333940;
+    --color-divider: #1b2026;
+
+    /* Overlay/Depth */
+    --color-overlay: #1d2e47;
 }
